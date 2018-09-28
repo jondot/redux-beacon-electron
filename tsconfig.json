@@ -8,6 +8,7 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "declaration": true,
+    "strict": true,
     "paths": {
       "*": [
         "node_modules/*",
@@ -17,5 +18,8 @@
   },
   "include": [
     "src/**/*"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts"
   ]
 }

@@ -11,6 +11,7 @@
   "rules": {
     "semicolon": false,
     "no-console": false,
+    "interface-name": false,
     "prettier": [
       true,
       {
